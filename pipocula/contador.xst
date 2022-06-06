@@ -1,0 +1,5 @@
+set -tmpdir "/home/sd/pipocula/xst/projnav.tmp"
+set -xsthdpdir "/home/sd/pipocula/xst"
+elaborate
+-ifn contador.prj
+-ifmt mixed

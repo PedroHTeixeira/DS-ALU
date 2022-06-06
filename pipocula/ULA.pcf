@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Jun 02 15:00:36 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "s<0>" LOCATE = SITE "U10" LEVEL 1;
+COMP "s<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "s<2>" LOCATE = SITE "T9" LEVEL 1;
+COMP "clock_50" LOCATE = SITE "E12" LEVEL 1;
+COMP "z<0>" LOCATE = SITE "V19" LEVEL 1;
+COMP "z<1>" LOCATE = SITE "V20" LEVEL 1;
+COMP "z<2>" LOCATE = SITE "Y22" LEVEL 1;
+COMP "z<3>" LOCATE = SITE "W21" LEVEL 1;
+COMP "cout" LOCATE = SITE "U19" LEVEL 1;
+SCHEMATIC END;
+

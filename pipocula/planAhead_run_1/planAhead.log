@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Thu May 26 13:49:08 2022
+# Process ID: 4463
+# Log file: /home/sd/Ula/planAhead_run_1/planAhead.log
+# Journal file: /home/sd/Ula/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1061 day(s)
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/sd/Ula/pa.fromHdl.tcl
+# create_project -name Ula -dir "/home/sd/Ula/planAhead_run_2" -part xc3s700anfgg484-5
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "ULA.ucf" [current_fileset -constrset]
+Adding file '/home/sd/Ula/ULA.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {adder.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ula.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top ULA $srcset
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+update_compile_order -fileset sim_1
+exit
+ERROR: [#UNDEF] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See /home/sd/Ula/planAhead_pid4463.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu May 26 13:50:01 2022...
+INFO: [Common 17-83] Releasing license: PlanAhead

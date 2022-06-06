@@ -1,0 +1,5 @@
+set -tmpdir "/home/sd/Ula/xst/projnav.tmp"
+set -xsthdpdir "/home/sd/Ula/xst"
+elaborate
+-ifn complementador.prj
+-ifmt mixed

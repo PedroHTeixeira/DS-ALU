@@ -1,0 +1,14 @@
+EN adder NULL /home/sd/pipocula/adder.vhd sub00/vhpl00 1654192823
+EN counter_seconds NULL /home/sd/pipocula/contador.vhd sub00/vhpl10 1654191952
+AR counter behavioral /home/sd/pipocula/contador.vhd sub00/vhpl13 1654192043
+EN complementador NULL /home/sd/pipocula/complementador.vhd sub00/vhpl04 1654192827
+EN fulladder NULL /home/sd/pipocula/fulladder.vhd sub00/vhpl06 1654192829
+EN ula NULL /home/sd/pipocula/ula.vhd sub00/vhpl02 1654192831
+EN counter NULL /home/sd/pipocula/contador.vhd sub00/vhpl12 1654192042
+AR ula behavioral /home/sd/pipocula/ula.vhd sub00/vhpl03 1654192832
+AR adder behavioral /home/sd/pipocula/adder.vhd sub00/vhpl01 1654192824
+AR counter_seconds behavioral /home/sd/pipocula/contador.vhd sub00/vhpl11 1654191953
+EN contador NULL /home/sd/pipocula/contador.vhd sub00/vhpl08 1654192825
+AR complementador behavioral /home/sd/pipocula/complementador.vhd sub00/vhpl05 1654192828
+AR fulladder behavioral /home/sd/pipocula/fulladder.vhd sub00/vhpl07 1654192830
+AR contador behavioral /home/sd/pipocula/contador.vhd sub00/vhpl09 1654192826

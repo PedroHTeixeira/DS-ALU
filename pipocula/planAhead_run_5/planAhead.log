@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Thu Jun  2 14:43:09 2022
+# Process ID: 6417
+# Log file: /home/sd/pipocula/planAhead_run_5/planAhead.log
+# Journal file: /home/sd/pipocula/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1068 day(s)
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/sd/pipocula/pa.fromHdl.tcl
+# create_project -name Ula -dir "/home/sd/pipocula/planAhead_run_5" -part xc3s700anfgg484-5
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "ULA.ucf" [current_fileset -constrset]
+Adding file '/home/sd/pipocula/ULA.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {adder.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {fulladder.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {complementador.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ula.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top ULA $srcset
+# add_files [list {ULA.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s700anfgg484-5
+Using Verific elaboration
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "/home/sd/pipocula/adder.vhd" into library work
+Parsing VHDL file "/home/sd/pipocula/fulladder.vhd" into library work
+Parsing VHDL file "/home/sd/pipocula/complementador.vhd" into library work
+Parsing VHDL file "/home/sd/pipocula/ula.vhd" into library work
+CRITICAL WARNING: [EDIF 20-96] Could not resolve non-primitive black box cell 'CONTADOR(3,0)' instantiated as 'Cont' [/home/sd/pipocula/ula.vhd:69]
+Resolution: File names need to match cell names: an EDIF definition will be found in CONTADOR(3,0).edf; an HDL definition may be placed in any Verilog/VHDL file.
+INFO: [Designutils 20-910] Reading macro library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/hd_int_macros.edn
+Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/hd_int_macros.edn]
+Finished Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/hd_int_macros.edn]
+Loading clock regions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s700an/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s700an/ClockBuffers.xml
+Loading package from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s700an/fgg484/Package.xml
+Loading io standards from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s700an/fgg484/SSORules.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/drc.xml
+INFO: [Timing 38-77] Reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/spartan3a-5.lib.
+INFO: [Timing 38-34] Done reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/spartan3a-5.lib.
+Parsing UCF File [/home/sd/pipocula/ULA.ucf]
+Finished Parsing UCF File [/home/sd/pipocula/ULA.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 111bfb2c
+open_rtl_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 2802.395 ; gain = 117.367
+update_compile_order -fileset sim_1
+exit
+ERROR: [#UNDEF] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See /home/sd/pipocula/planAhead_pid6417.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Jun  2 14:44:14 2022...
+INFO: [Common 17-83] Releasing license: PlanAhead

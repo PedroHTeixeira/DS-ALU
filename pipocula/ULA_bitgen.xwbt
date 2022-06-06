@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/sd/pipocula/ULA.ncd
+OUTFILE=/home/sd/pipocula/ULA.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s700an-5fgg484
+WORKINGDIR=/home/sd/pipocula
+LICENSE=WebPack
+USER_INFO=211545305_0_0_116

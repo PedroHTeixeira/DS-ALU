@@ -1,0 +1,31 @@
+V3 23
+FL /home/sd/pipocula/adder.vhd 2022/05/26.13:22:52 P.20131013
+EN work/ADDER 1654192823 FL /home/sd/pipocula/adder.vhd PB ieee/std_logic_1164 1381692176
+AR work/ADDER/Behavioral 1654192824 \
+      FL /home/sd/pipocula/adder.vhd EN work/ADDER 1654192823
+FL /home/sd/pipocula/complementador.vhd 2022/05/26.14:41:36 P.20131013
+EN work/complementador 1654192827 FL /home/sd/pipocula/complementador.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/complementador/Behavioral 1654192828 \
+      FL /home/sd/pipocula/complementador.vhd EN work/complementador 1654192827
+FL /home/sd/pipocula/contador.vhd 2022/06/02.14:48:26 P.20131013
+EN work/CONTADOR 1654192825 FL /home/sd/pipocula/contador.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/CONTADOR/behavioral 1654192826 \
+      FL /home/sd/pipocula/contador.vhd EN work/CONTADOR 1654192825
+FL /home/sd/pipocula/fulladder.vhd 2022/05/26.14:57:08 P.20131013
+EN work/fulladder 1654192829 FL /home/sd/pipocula/fulladder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/fulladder/Behavioral 1654192830 \
+      FL /home/sd/pipocula/fulladder.vhd EN work/fulladder 1654192829 CP ADDER
+FL /home/sd/pipocula/ula.vhd 2022/06/02.15:00:16 P.20131013
+EN work/ULA 1654192831 FL /home/sd/pipocula/ula.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ULA/Behavioral 1654192832 \
+      FL /home/sd/pipocula/ula.vhd EN work/ULA 1654192831 CP CONTADOR \
+      CP COMPLEMENTADOR CP FULLADDER
+FL /home/sd/Ula/adder.vhd 2022/05/26.13:22:53 P.20131013
+FL /home/sd/Ula/complementador.vhd 2022/05/26.14:41:37 P.20131013
+FL /home/sd/Ula/fulladder.vhd 2022/05/26.14:57:08 P.20131013
+FL /home/sd/Ula/ula.vhd 2022/05/26.15:00:09 P.20131013
